@@ -6,13 +6,13 @@
  </head>
  <body>
   <header>
-   <nav>
-    <ul>
-     <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-     <li><a href="{{site.baseurl}}/about.html">About</a></li>
-    </ul>
-   </nav>
+   {% include nav.html %}
   </header>
-  {{content}}
+  <main>
+   {{content}}
+ </main>
+  <footer>
+    {% include nav.html %}
+  </footer>
  </body>
 </html>

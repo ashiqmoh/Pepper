@@ -1,9 +1,15 @@
 <nav>
- <ul>
+ <ul class="nav {{include.navclass}}">
   <li>
     <a href="{{site.baseurl}}/"
        class="{% if page.url == '/' %}current{% endif %}">
         Home
+    </a>
+  </li>
+  <li>
+    <a href="{{site.baseurl}}/blog.html"
+       class="{% if page.url == '/blog.html' %}current{% endif %}">
+        Blog
     </a>
   </li>
   <li>

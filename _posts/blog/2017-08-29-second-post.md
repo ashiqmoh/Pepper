@@ -3,6 +3,7 @@ layout: blogpage
 title: Second Post
 description: This is my second post.
 url: /2017/08/29/second-post.html
+category: blog
 ---
 
 This is my second post. And lorem ipsum, people.

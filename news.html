@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h1>News</h1>
+
+<ul>
+  {% for entry in site.categories.news limit:2 %}
+  <li>
+    <a href="{{entry.url}}">{{entry.title}}</a>
+    <p>{{entry.description}}</>
+  </li>
+  {% endfor %}
+</ul>
